@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.boton{
+    font-size: 20px;
+    color: white;
+    border: 2px, solid;
+    background-color: rgb(139, 10, 10);
+    text-decoration: none;
+    padding: 5px;
+}
+
+.art{
+    h2{
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Roboto', sans-serif;
+        margin: 30px;
+        padding: 15px;
+        background-color: #f0d62dce;
+    }
+    .contendor-flex div{
+        width: 250px;
+        height: 400px;
+        text-align: center;
+        margin: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        display: inline-block;
+        border: 3px, beige solid;
+        img{
+            height: 250px;
+            width: 250px;
+        }
+        h3{
+            margin-bottom: 15px;
+            font-size: 20px;
+            text-align: center;
+        }
+        a{
+        }
+    }
+}
