@@ -187,6 +187,10 @@ h1:hover{
     flex-wrap: wrap;
     display: inline-block;
     border: 3px, beige solid;
+    transition: 2s;
+}
+.art .contenedor-flex div:hover{
+    transform: scale(1.2)
 }
 .contenedor-royal{
     width: 250px;
