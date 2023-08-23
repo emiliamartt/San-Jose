@@ -1,0 +1,54 @@
+%flex{
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-block;
+}
+
+$colores:
+black,
+#f0d62dce,
+beige,
+whitesmoke,
+white;
+header h1{
+    color: nth($colores, 3);
+}
+.categorias h2{
+    color: nth($colores, 3 );
+}
+.categorias a{
+    color: nth($colores, 1);
+}
+.productos h2{
+    color: nth($colores, 5 );
+}
+.boton{
+    color: nth($colores,5 );
+}
+.contenedor-vete h2{
+    color: nth($colores,5 );
+}
+
+.art .contendor-flex div{
+    color: nth($colores,3);
+}
+.contendor-royal{
+    color: nth($colores,3);
+}
+.contenedor-contactos p{
+    color: nth($colores,3);
+}
+footer h2{
+    color: nth($colores, 1);
+}
+@mixin flex($aling,$margin,$padding) {
+    text-align: $aling;
+    margin:$margin ;
+    padding: $padding;
+}
+.categorias h2{
+    @include flex(center, 30px, 15px)
+}
+.productos h2{
+    @include flex(center,30px, 15px )
+}

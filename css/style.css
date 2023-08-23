@@ -43,6 +43,10 @@ h1{
     font-size: 25px;
     background-color: aliceblue;
     text-align: center;
+    transition: 2s;
+}
+h1:hover{
+    transform: scale(1.2);
 }
 .ultimo{
     width: 100%;
@@ -76,6 +80,7 @@ h1{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
 }
+
 .caro-index{
     height: 900%;
     width: 100%;
@@ -183,7 +188,7 @@ h1{
     display: inline-block;
     border: 3px, beige solid;
 }
-.contendor-royal{
+.contenedor-royal{
     width: 250px;
     height: 400px;
     text-align: center;
@@ -291,7 +296,7 @@ footer h2{
     }
     header img{
         height: 120px;
-        width: 14px;
+        width: 140px;
     }
     h1{
         font-size: 25px;
