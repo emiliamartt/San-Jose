@@ -163,6 +163,37 @@ header {
     width: 100%;
     object-fit: cover; }
 
+/*!--------contactos-------*/
+main .contacto-h1 {
+  margin-top: 0%;
+  font-size: 30px;
+  margin-bottom: 60px;
+  height: 40px;
+  font-family: 'Merriweather', serif;
+  background-color: #F0D62D;
+  text-align: center;
+  font-weight: 100; }
+
+main .mensaje {
+  margin: 40px; }
+  main .mensaje h2 {
+    font-size: 20px; }
+
+main .mensaje-1 {
+  margin: 40px;
+  margin-bottom: 20px; }
+
+main .maps-cont p {
+  text-align: left;
+  margin-top: 20px;
+  margin: 30px;
+  font-size: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+main .maps-cont .maps {
+  margin: 30px;
+  text-align: center; }
+
 footer .img-f .logo {
   height: 200px;
   width: 250px; }
